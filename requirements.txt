@@ -1,0 +1,8 @@
+requests
+beautifulsoup4
+python-dotenv
+reportlab
+openai
+google-genai
+anthropic
+tomli; python_version < "3.11"

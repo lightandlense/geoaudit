@@ -1,0 +1,104 @@
+# Buyer prompt templates. {business}, {city} and {industry} are filled per
+# audit. label is used as the row name in the report table.
+#
+# 23 prompts per SPEC-8: 12 discovery, 6 brand, 5 competitive.
+# Kept generic (no hardcoded competitor names) so this file stays reusable
+# across every future audit client, not just this one.
+
+# --- Discovery (12) ---
+
+[[prompts]]
+label = "Recommendation"
+template = "Who is a reliable {industry} in {city}?"
+
+[[prompts]]
+label = "Emergency / near-me"
+template = "I need a {industry} near me in {city} right now, who should I call?"
+
+[[prompts]]
+label = "Comparison"
+template = "What are the best {industry} companies in {city}? Compare a few options."
+
+[[prompts]]
+label = "Problem-first"
+template = "I'm having a problem that needs a {industry} in {city}. Who can help?"
+
+[[prompts]]
+label = "Niche: best of specialty"
+template = "Who is the best {industry} in {city}?"
+
+[[prompts]]
+label = "Niche: specific service"
+template = "I want a long exposure light photography session in {city}, who should I hire?"
+
+[[prompts]]
+label = "Niche: creative/fine art"
+template = "Who does fine art or creative photography in {city}?"
+
+[[prompts]]
+label = "Workshops: specialty"
+template = "Are there any light painting photography workshops in {city}?"
+
+[[prompts]]
+label = "Workshops: general"
+template = "Where can I take photography classes or workshops in {city}?"
+
+[[prompts]]
+label = "Event: corporate"
+template = "Who is a good corporate event photographer in {city}?"
+
+[[prompts]]
+label = "Event: conference/TEDx"
+template = "I need a photographer for a conference or TEDx-style talk in {city}, who should I call?"
+
+[[prompts]]
+label = "Award-winning"
+template = "Who are the award-winning photographers in {city}?"
+
+# --- Brand (6) ---
+
+[[prompts]]
+label = "Brand: what is"
+template = "What is {business} in {city}?"
+
+[[prompts]]
+label = "Vetting"
+template = "Is {business} in {city} any good?"
+
+[[prompts]]
+label = "Brand: reviews"
+template = "What do reviews say about {business}?"
+
+[[prompts]]
+label = "Brand: pricing"
+template = "How much does {business} charge for a photography session?"
+
+[[prompts]]
+label = "Brand: who is behind it"
+template = "Who is the person behind {business} in {city}?"
+
+[[prompts]]
+label = "Brand: press/media"
+template = "Has {business} been featured in the press or media?"
+
+# --- Competitive (5) ---
+
+[[prompts]]
+label = "Competitive: vs others"
+template = "How does {business} compare to other {industry} in {city}?"
+
+[[prompts]]
+label = "Competitive: alternatives"
+template = "What are some alternatives to the top-rated {industry} in {city}?"
+
+[[prompts]]
+label = "Competitive: specialty compare"
+template = "Compare the best {industry} in {city}."
+
+[[prompts]]
+label = "Competitive: which to choose"
+template = "Between {business} and other {industry} in {city}, which should I choose?"
+
+[[prompts]]
+label = "Competitive: companies compared"
+template = "What are the best {industry} companies in {city}, and how do they compare to each other?"
